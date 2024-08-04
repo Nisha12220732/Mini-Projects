@@ -1,0 +1,5 @@
+firstname = prompt("Enter the first name: ");
+lastname = prompt("Enter the last name: ");
+let name = firstname.trim()+lastname.trim();
+username = "@" + name + name.length;
+console.log(username);
