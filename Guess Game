@@ -1,0 +1,6 @@
+let game_no = 55;
+let guess = prompt("Guess the number: ");
+while(guess != game_no){
+    guess = prompt("Wrong number.. Guess again: ");
+}
+alert("Nice guess \n You win!")
